@@ -1,0 +1,39 @@
+html,
+body,
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.parent1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.parent2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.parent3 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+
+}
+
+.imgs {
+    width: 30%;
+    border: 5px green solid;
+    box-shadow: 5px 5px lightgreen;
+}
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Alkalami', serif;
+}
