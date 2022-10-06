@@ -34,6 +34,8 @@ body {
     width: 30%;
     border: 5px green solid;
     box-shadow: 5px 5px #90AF90;
+    border-radius: 3rem;
+    
 }
 
 h1 {
