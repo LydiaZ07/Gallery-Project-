@@ -11,6 +11,14 @@ body {
     background-color: #E0FFE0;
 }
 
+h1 {
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Alkalami', serif;
+    letter-spacing: 1rem;
+    color: #023020;
+}
+
 .parent1 {
     display: flex;
     justify-content: space-around;
@@ -31,17 +39,18 @@ body {
 }
 
 .imgs {
-    width: 30%;
+    width: 25%;
     border: 5px green solid;
     box-shadow: 5px 5px #90AF90;
     border-radius: 3rem;
+<<<<<<< Updated upstream
     
+=======
+>>>>>>> Stashed changes
 }
 
-h1 {
-    font-size: 5rem;
-    text-align: center;
-    font-family: 'Alkalami', serif;
-    letter-spacing: 1rem;
-    color: #023020;
+.imgs:hover {
+    transform: scale(1.1);
+    outline: 5px solid #FADADD;
+    padding: 4px;
 }
