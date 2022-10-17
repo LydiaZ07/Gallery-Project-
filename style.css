@@ -5,6 +5,7 @@ body,
     margin: 0;
     box-sizing: border-box;
     font-size: 62.5%;
+    text-align: center;
 }
 
 body {
@@ -13,12 +14,17 @@ body {
 
 h1 {
     font-size: 6rem;
-    text-align: center;
     font-family: 'Alkalami', serif;
     letter-spacing: 1rem;
     color: #023020;
     transition: all 0.3%;
-    margin-top: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
 .parent1 {
@@ -71,8 +77,28 @@ h1 {
 
 }
 
+.imgs1 {
+
+    width: 20%;
+    border: 5px green solid;
+    box-shadow: 5px 5px #90AF90;
+    border-radius: 3rem;
+
+}
+
+.imgs1:hover {
+    width: 20%;
+    border: 5px rgb(150, 196, 255) solid;
+    box-shadow: 5px 5px #030447;
+    transform: scale(1.3);
+}
+
 h1:hover {
     transform: scale(1.5);
+}
+
+h2:hover {
+    transform: scale(1.2);
 }
 
 @keyframes rotate {
