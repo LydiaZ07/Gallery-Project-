@@ -54,6 +54,19 @@ h2 {
 
 }
 
+.imgs2 {
+    width: 20%;
+    border: 5px green solid;
+    box-shadow: 5px 5px #90AF90;
+    border-radius: 3rem;
+}
+
+.imgs2:hover:hover {
+    transform: scale(1.1);
+    outline: 8px solid #d05965;
+    padding: 6px;
+}
+
 
 .img:hover {
     transform: scale(1.1);
