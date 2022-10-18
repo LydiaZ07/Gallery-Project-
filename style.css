@@ -25,6 +25,7 @@ h1 {
 h2 {
     font-size: 2rem;
     margin-bottom: 2rem;
+    animation: rotate 2s 1;
 }
 
 .parent1 {
@@ -86,7 +87,7 @@ h2 {
     outline: 8px dotted lightcoral;
     padding: 6px;
     animation-name: rotate;
-    animation-duration: 0.7s;
+    animation-duration: 1s;
 
 }
 
@@ -123,3 +124,4 @@ h2:hover {
         transform: rotate(360deg);
     }
 }
+
