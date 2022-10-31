@@ -98,8 +98,6 @@ h2:hover {
 
     html,
     body {
-        width: 100%;
-        height: 100%;
         margin: 0px;
         padding: 0px;
     }
@@ -118,6 +116,26 @@ h2:hover {
     .imgs1 {
         margin-bottom: 3rem;
     }
+
+    .img:hover {
+        outline: 8px solid #FADADD;
+        padding: 6px;
+    }
+
+
+    .imgs:hover {
+        outline: 8px dotted lightcoral;
+        padding: 6px;
+        animation-name: rotate;
+        animation-duration: 1s;
+    }
+
+    .imgs1:hover {
+        border: 5px rgb(150, 196, 255) solid;
+        box-shadow: 5px 5px #030447;
+    }
+
+
 }
 
 @media all and (max-width: 820px) {
@@ -144,5 +162,23 @@ h2:hover {
     .imgs1 {
         margin-bottom: 3rem;
         width: 70rem;
+    }
+
+    .img:hover {
+        outline: 8px solid #FADADD;
+        padding: 6px;
+    }
+
+
+    .imgs:hover {
+        outline: 8px dotted lightcoral;
+        padding: 6px;
+        animation-name: rotate;
+        animation-duration: 1s;
+    }
+
+    .imgs1:hover {
+        border: 5px rgb(150, 196, 255) solid;
+        box-shadow: 5px 5px #030447;
     }
 }
